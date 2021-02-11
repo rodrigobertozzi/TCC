@@ -4,10 +4,16 @@ Trabalho de conclusão de curso - Ciência da Computção - Pontíficia Católic
 
 ## Instalação
 
+```bash
+git clone https://github.com/rodrigobertozzi/TCC/
+```
 
+## Utilização
 
-## Usage
-
+```bash
+cd TCC
+TCC> ./main
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
