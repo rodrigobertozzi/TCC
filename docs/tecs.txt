@@ -1,0 +1,7 @@
+Tecnologias para ciencia de dados:
+
+Python
+R
+SQL
+Hadoop
+Spark
