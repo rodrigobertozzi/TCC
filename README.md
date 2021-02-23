@@ -3,16 +3,21 @@
 Trabalho de conclusão de curso - Ciência da Computção - Pontíficia Católica de Minas Gerais - Campus Poços de Caldas
 
 ## Instalação
-
 ```bash
+pip install virtualenv
+virtualenv <your-env>
+source <your-env>/bin/activate
+<your-env>/bin/pip install google-api-python-client
+
+````bash
 git clone https://github.com/rodrigobertozzi/TCC/
 ```
 
 ## Utilização
 
 ```bash
-cd TCC
-TCC> ./main
+cd /TCC
+
 ```
 
 ## License
