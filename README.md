@@ -9,7 +9,7 @@ virtualenv <your-env>
 source <your-env>/bin/activate
 <your-env>/bin/pip install google-api-python-client
 
-````bash
+
 git clone https://github.com/rodrigobertozzi/TCC/
 ```
 
