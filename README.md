@@ -2,6 +2,13 @@
 
 Trabalho de conclusão de curso - Ciência da Computção - Pontíficia Católica de Minas Gerais - Campus Poços de Caldas
 
+## Sobre o trabalho - Ferramenta Perspective: um estudo de caso para análise de toxicidade em tweets 
+```bash
+A plataforma Twitter proporciona ao usuário da rede social atualização em tempo real do que está acontecendo no mundo, como, notícias de política, músicas, futebol, opinião de outras pessoas no Twitter, entre outras coisas. Sendo assim, temos um grande volume de informações sobre cada assunto para estudar e/ou tirar as próprias conclusões.   
+
+Neste contexto, este trabalho, consiste em mostrar as etapas de mineração de textos na rede social Twitter, conhecido como tweets, para visualizar a toxicidade dos usuários do Twitter sobre o assunto do COVID-19 e suas consequências sobre os aspectos de saúde, econômicos e sociais.  
+```
+
 ## Pré requisitos
 
 ```bash
@@ -42,7 +49,7 @@ source <your-env>/bin/activate
 ```
 
 
-## Utilização
+## Utilização básica
 
 ```bash
 from googleapiclient import discovery
