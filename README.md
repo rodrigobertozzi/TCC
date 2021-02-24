@@ -26,7 +26,7 @@ Passo 2 - No link https://console.cloud.google.com
 Para ter acesso a Perspective API, será necessaŕio preencher um formulário ( https://docs.google.com/forms/d/e/1FAIpQLSdhBBnVVVbXSElby-jhNnEj-Zwpt5toQSCFsJerGfpXW66CuQ/viewform ) para poder ter acesso a API.
 ```
 
-## Generar uma API Key 
+## Gerar uma API Key 
 ```bash
 Para generar uma chave para ter acesso a API, devemos fazer o seguinte:
 
