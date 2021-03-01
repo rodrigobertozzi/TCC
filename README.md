@@ -10,8 +10,9 @@ Neste contexto, este trabalho, consiste em mostrar as etapas de mineração de t
 ```
 
 ## Pré requisitos
-
 ```bash
+##Conta Google
+
 Você deve ter uma conta do Google, que lhe dá acesso ao pacote de produtos do Google, incluindo o Google Cloud.
 
 Você também deve ter um projeto do Google Cloud para autenticar (mas não necessariamente hospedar) suas solicitações de API. Acesse o console do Google Cloud e use um projeto existente ou siga estas etapas para criar um novo:
@@ -28,14 +29,15 @@ Para ter acesso a Perspective API, será necessaŕio preencher um formulário (h
 ## Twitter Developer
 
 Para a obtenção dos tweets, precisa-se ter autorização na plataforma Twitter Developer (https://developer.twitter.com/en):
-Passo 1 - Criar uma conta 
+
+Passo 1 - Criar uma conta e aplicar um resumo do projeto para obter acesso ao "Research Academic"
 
 Passo 2 - Obter as Keys para o processo de captação de tweets
 ```
 
 ## Gerar uma API Key 
 ```bash
-Para generar uma chave para ter acesso a API, devemos fazer o seguinte:
+Para generar uma chave para ter acesso a Perspective API, devemos fazer o seguinte:
 
 Passo 1 - Entrar no link a seguir: https://console.developers.google.com/apis/credentials e clicar em " + Criar Credenciais"
 Passo 2 - Escolha "Chave API" na lista de credenciais.
