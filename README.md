@@ -23,7 +23,14 @@ Passo 2 - No link https://console.cloud.google.com
         - Nomeie seu projeto
         - Clicar no botão "Criar"
         
-Para ter acesso a Perspective API, será necessaŕio preencher um formulário ( https://docs.google.com/forms/d/e/1FAIpQLSdhBBnVVVbXSElby-jhNnEj-Zwpt5toQSCFsJerGfpXW66CuQ/viewform ) para poder ter acesso a API.
+Para ter acesso a Perspective API, será necessaŕio preencher um formulário (https://docs.google.com/forms/d/e/1FAIpQLSdhBBnVVVbXSElby-jhNnEj-Zwpt5toQSCFsJerGfpXW66CuQ/viewform ) para poder ter acesso a API.
+
+## Twitter Developer
+
+Para a obtenção dos tweets, precisa-se ter autorização na plataforma Twitter Developer (https://developer.twitter.com/en):
+Passo 1 - Criar uma conta 
+
+Passo 2 - Obter as Keys para o processo de captação de tweets
 ```
 
 ## Gerar uma API Key 
@@ -35,11 +42,6 @@ Passo 2 - Escolha "Chave API" na lista de credenciais.
 Passo 3 - Ver e guardar a sua Key
 ```
 
-## Python
-```bash
-Aqui está um exemplo de solicitação e resposta usando a versão Python das bibliotecas cliente da API do Google.
-```
-
 ## Instalação
 ```bash
 pip install virtualenv
@@ -48,10 +50,11 @@ source <your-env>/bin/activate
 <your-env>/bin/pip install google-api-python-client
 ```
 
-
+## Python
+```bash
 ## Utilização básica
 
-```bash
+
 from googleapiclient import discovery
 
 API_KEY='replace-this-with-your-API-key'
@@ -68,6 +71,7 @@ response = service.comments().analyze(body=analyze_request).execute()
 
 import json
 print json.dumps(response, indent=2)
+
 
 ```
 
