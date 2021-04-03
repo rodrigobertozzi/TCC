@@ -1,0 +1,1 @@
+{"attributeScores": {"TOXICITY": {"spanScores": [{"begin": 0, "end": 72, "score": {"value": 0.16477858, "type": "PROBABILITY"}}], "summaryScore": {"value": 0.16477858, "type": "PROBABILITY"}}}, "languages": ["pt"], "detectedLanguages": ["pt", "ca"]}
