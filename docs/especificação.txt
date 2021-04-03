@@ -1,0 +1,41 @@
+Sobre o projeto de TD:
+
+Olá, meu nome é Rodrigo Bertozzi De Castro e sou estudante de ciência da computação na PUC Minas campus poços de caldas, sou orientando da Luciana de Nardin e estou aqui para falar sobre meu projeto de trabalho de diplomação. O projeto consiste em um estudo de caso para análise de toxicidade em tweets sobre SARS-Cov-2 usando a ferramenta perspective. 
+
+A plataforma Twitter proporciona ao usuário da rede social atualização em tempo real do que está acontecendo no mundo, como, notícias de política, músicas, futebol, opinião de outras pessoas no Twitter, entre outras coisas. Sendo assim, temos um grande volume de informações sobre cada assunto para estudar e tirar as próprias conclusões. Neste contexto, este trabalho consiste em usar a ferramenta Perspective API para mostrar a toxicidade dos textos na rede social Twitter, conhecido como tweets. 
+
+A ferramenta Perspective foi criada pela JigSaw e pela equipe de tecnologia Counter Abuse do Google com o objetivo de identificar e ajudar a diminuir toxicidade em conversas on-line usando machine learning. 
+
+
+
+Neste projeto, irei analisar os tweets com as palavras chaves: COVID-19, Covid, coronavirus, vacinas e vacina que foram coletados em lingua portuguesa através da plataforma Twitter developer durante os dias 04 e 05 de março de 2021. Após a coleta, será feita a analise dos tweets com a Perspective API para identificar a toxicidade dos textos coletados. Depois de feita a analise de toxicidade, atraves da linguagem python e suas bibliotecas da área de data science como pandas, numpy, tensorflow, matplotlib, scipy e scikit learn, será feito uma série de analises graficas com os resultados obtidos da Perspective API.
+
+
+
+Os dados foram coletados entre o dia 04/03/2021 e 05/03/2021 totalizando 19854 tweets 
+
+
+
+
+
+O Perspective usa modelos de aprendizado de máquina para identificar comentários abusivos. Os modelos pontuam uma frase com base no impacto percebido que o texto pode ter em uma conversa. Os desenvolvedores e editores podem usar essa pontuação para dar feedback aos comentadores, ajudar os moderadores a revisar os comentários com mais facilidade ou ajudar os leitores a filtrar a linguagem “”.
+
+Os modelos de perspectiva fornecem pontuações para vários atributos diferentes. Além do atributo principal Toxicidade, aqui estão alguns dos outros atributos que a Perspectiva pode fornecer pontuações para:
+
+
+
+
+para uso em inglês, espanhol, francês, alemão, português, italiano e russo
+
+Os tipos de pontuação são formatos diferentes para a API retornar pontuações de atributos. Atualmente, o único tipo de pontuação com suporte é PROBABILITY.
+
+ 
+
+As pontuações de probabilidade representam uma probabilidade, com um valor entre 0 e 1. Uma pontuação mais alta indica uma maior probabilidade de que um leitor perceberia que o comentário contém o atributo fornecido. Por exemplo, um comentário como “Você é um idiota” pode receber uma pontuação de probabilidade de 0,8 para o atributo TOXICIDADE, indicando uma probabilidade de 80% de que um leitor consideraria aquele comentário tóxico.
+
+
+Um dos usos mais comuns da API de perspectiva é a moderação de conteúdo. Desenvolvedores em plataformas como DISQUS e publicações como The Wall Street Journal aumentam seus sistemas de moderação de conteúdo existentes com Perspectiva, criando combinações personalizadas de atributos para atender às necessidades de suas plataformas.
+
+A API de perspectiva tem o objetivo de tornar a moderação de conteúdo menos um fardo para indivíduos e organizações, mas não substitui completamente o trabalho dos tomadores de decisão humanos. A API de perspectiva ajuda os desenvolvedores e moderadores a tomar melhores decisões em escala, permitindo que o diálogo saudável floresça.
+
+Leia mais sobre como nossos parceiros usam o Perspective em nossa página de estudos de caso.
