@@ -1,7 +1,5 @@
-Tecnologias para ciencia de dados:
+organograma
+100 maior 100 menor
+metodologia
+minimo médio maximo wordlcoud
 
-Python
-R
-SQL
-Hadoop
-Spark
